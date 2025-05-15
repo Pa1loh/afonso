@@ -1,0 +1,74 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ASP.NET specific
+wwwroot/lib/
+wwwroot/dist/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Dotnet tools
+.dotnet_tool/
+
+# Entity Framework Migrations
+Migrations/
+
+# Coverage results
+TestResults/
+coverage/
+coverage*.json
+coverage*.xml
+*.lcov
+
+# Publish
+publish/
+*.Publish.xml
+
+# Configuration transforms
+appsettings.*.json
+!appsettings.Development.json
+
+# Local database
+*.db
+*.mdf
+*.ldf
+*.sqlite
+
+# Secrets
+secrets.json
+
+# Optional: Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Optional: JetBrains Rider
+.idea/
+
+# Optional: global.json backups
+global.json.bak
